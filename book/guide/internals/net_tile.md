@@ -118,7 +118,7 @@ will undo this config:
 The net tile is mostly agnostic to the TX topology.  It only expects
 tango standard practices:
 
-- The metadata ring is an mcache
+- The metadata ring is a mcache
 - "mcache publish marks data freed" pattern (assumes TSO memory model)
 - The data region is a dcache
 - Chunk addressing with base in
